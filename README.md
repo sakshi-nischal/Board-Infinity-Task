@@ -18,7 +18,8 @@ User is allowed to Create Data, Update the data, find the data of single user or
 # Form for adding the user
 ![WhatsApp Image 2021-04-02 at 11 39 00 AM (1)](https://user-images.githubusercontent.com/57134054/113386913-ddce3680-93a8-11eb-949b-ebd271fe8f33.jpeg)
 User can enter the details and can save it into the database using Save button
-![WhatsApp Image 2021-04-02 at 11 39 01 AM (2)](https://user-images.githubusercontent.com/57134054/113387572-2df9c880-93aa-11eb-9bf4-cf401de58c60.jpeg)
+![WhatsApp Image 2021-04-02 at 11 53 40 AM](https://user-images.githubusercontent.com/57134054/113387733-816c1680-93aa-11eb-9c2b-3026c9848657.jpeg)
+
 Data Added Successfully!
 
 # For testing API's
@@ -36,7 +37,8 @@ All the data entered by the user will be saved into the MongoDb database
 User is being asked whether to delete the file or not
 ![WhatsApp Image 2021-04-02 at 11 39 01 AM (2)](https://user-images.githubusercontent.com/57134054/113387265-98f6cf80-93a9-11eb-9a60-b0294f10260a.jpeg)
 Message will be shown that the data has been deleted
-![WhatsApp Image 2021-04-02 at 11 39 01 AM (1)](https://user-images.githubusercontent.com/57134054/113387599-3c47e480-93aa-11eb-9954-ed3576f3d8aa.jpeg)
+![WhatsApp Image 2021-04-02 at 11 53 39 AM](https://user-images.githubusercontent.com/57134054/113387758-8d57d880-93aa-11eb-8d53-5c93c8484b15.jpeg)
+
 Data deleted successfully!
 
 
