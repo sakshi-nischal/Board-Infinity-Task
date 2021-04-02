@@ -11,5 +11,6 @@ Then Create config.env file and create PORT and MONGO_URI Variable and specify V
 npm start
 
 # Following is the API
-![WhatsApp Image 2021-04-02 at 11 39 01 AM](https://user-images.githubusercontent.com/57134054/113386649-508ae200-93a8-11eb-8ee7-89900fadb454.jpeg)
+![WhatsApp Image 2021-04-02 at 11 39 00 AM](https://user-images.githubusercontent.com/57134054/113386835-b2e3e280-93a8-11eb-9933-518235ff2823.jpeg)
+
 User is allowed to Create Data, Update the data, find the data of single user or each and every user present in database, and can also delete the data.
