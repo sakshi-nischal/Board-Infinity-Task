@@ -1,0 +1,58 @@
+<!-- include header -->
+<%- include('include/_header') %>
+<!-- /include header -->
+
+  <!-- Main Site -->
+  <main id="site-main">
+    <div class="container">
+        <div class="box-nav d-flex justify-between">
+           <div class="filter">
+               <a href="/"><i class="fas fa-angle-double-left"></i> All Tasks</a>
+           </div>
+        </div>
+        <div class="form-title text-center">
+            <h2 class="text-dark">Update Task</h2>
+            <span class="text-light">Use the below form to Update task</span>
+        </div>
+
+        <!-- add user form -->
+         <!-- form handling -->
+ <form method="POST" id="update_task">
+    <div class="new_user">
+        <div class="form-group">
+            <label for="task_name" class="text-light">Task Name</label>
+            <input type="hidden" name="id" value="<%= user._id %>">
+            <input type="text" name="task_name" value="<%= user.task_name %>" placeholder="e.g-Reading">
+        </div>
+        <div class="form-group">
+            <label for="task_description" class="text-light">Task Description</label>
+            <input type="text" name="task_description" value="<%= user.task_description%>" placeholder="e.g-Reading the story book">
+        </div>
+        <div class="form-group">
+            <label for="creater" class="text-light">Creator</label>
+            <input type="text" name="creater" value="<%= user.creater%>" placeholder="e.g-Steve Anthony">
+        </div>
+        <div class="form-group">
+            <label for="duration" class="text-light">Duration</label>
+            <input type="text" name="duration" value="<%= user.duration%>" placeholder="time in mins">
+        </div>
+        <div class="form-group">
+            <label for="created_at" class="text-light">Created At</label>
+            <input type="text" name="created_at" value="<%= user.created_at%>" placeholder="HH:MM:SS">
+        </div>
+        
+
+        <div class="form-group">
+            <button type="submit" class="btn text-dark update">Save</button>
+        </div>
+
+    </div>
+</form>
+       
+    </div>
+</main>
+<!-- /Main Site -->
+
+<!-- include footer -->
+<%- include('include/_footer') %>
+<!-- /include footer -->
